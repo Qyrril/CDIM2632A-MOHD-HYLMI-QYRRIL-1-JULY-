@@ -1,0 +1,147 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #05658a;
+}
+
+
+header {
+    background-color: #cb3fc6;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Hero section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.hero-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    max-width: 600px;
+}
+
+/* Skills section */
+.skills-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.skills-section h2 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Quick stats section */
+.quick-stats {
+    padding: 40px 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+.quick-stats h2 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.stats-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+}
+
+.stats-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
